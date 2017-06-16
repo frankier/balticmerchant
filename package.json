@@ -1,0 +1,21 @@
+{
+  "name": "baltic",
+  "version": "0.0.0",
+  "description": "xxx",
+  "dependencies": {
+    "eve": "preview"
+  },
+  "devDependencies": {
+    "jspm": "^0.16.53"
+  },
+  "jspm": {
+    "dependencies": {
+      "eve": "npm:eve@^0.5.4",
+      "ts": "github:frankwallis/plugin-typescript@^7.0.6",
+      "witheve": "npm:witheve@0.3.0-preview4"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^2.0.7"
+    }
+  }
+}
