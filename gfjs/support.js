@@ -90,6 +90,7 @@ function GetXmlHttpObject(handler)
 }
 
 function ajax_http(method,url,body,callback,errorcallback) {
+    url += '&_=' + new Date().getTime();
     var http=GetXmlHttpObject()
     if (!http) {
 	var errortext="Browser does not support HTTP Request";

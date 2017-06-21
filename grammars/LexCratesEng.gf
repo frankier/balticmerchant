@@ -12,6 +12,6 @@ instance LexCratesEng of LexCrates =
     fish_N = mkN "fish" ;
 
     at_Prep = mkPrep "at" ;
-    each_Adv = mkAdv "each" ;
+    each_Adv = ParadigmsEng.mkAdv "each" ;
     euro_N = mkN "euro" ;
 }

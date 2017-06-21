@@ -1,0 +1,4 @@
+The following files have been vendorized from GF:
+ * decimal.gf
+ * DictFin.gf
+ * DictFinAbs.gf

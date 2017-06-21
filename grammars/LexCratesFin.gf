@@ -12,7 +12,7 @@ instance LexCratesFin of LexCrates =
     fish_N = mkN "kala" ;
 
     {- XXX WRONG -}
-    at_Prep = mkPrep "at" ;
+    at_Prep = mkPrep "XatX" ;
     each_Adv = ParadigmsFin.mkAdv "kukin" ;
     euro_N = mkN "euro" ;
 }

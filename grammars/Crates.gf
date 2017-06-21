@@ -4,7 +4,6 @@ abstract Crates = Numeral ** {
     Offer ;
     Commodity ;
     CommodityQuantity ;
-    CommodityCrate ;
     Number ;
     Money ;
   fun
@@ -12,8 +11,7 @@ abstract Crates = Numeral ** {
     Euros : Number -> Money ;
     NNumeral : Numeral -> Number ;
 
-    mkCommodityQuantity : CommodityCrate -> Number -> CommodityQuantity ;
-    mkCommodityCrate : Commodity -> CommodityCrate ;
+    mkCommodityQuantity : Commodity -> Number -> CommodityQuantity ;
 
     Wine, Cheese, Fish : Commodity;
 }

@@ -1,3 +1,5 @@
+all: Crates.pgf Actions.pgf decimal.pgf
+
 Crates.pgf:
 	gf -make ActionsEng.gf ActionsFin.gf
 
@@ -6,3 +8,6 @@ Actions.pgf:
 
 decimal.pgf:
 	gf -make decimal.gf
+
+clean:
+	rm *.pgf *.gfo
